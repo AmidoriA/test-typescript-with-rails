@@ -22,4 +22,4 @@ module Ts
   end
 end
 
-Typescript::Rails::Compiler.default_options = ['--target' 'ES3']
+Typescript::Rails::Compiler.default_options = ['--target', 'ES3']
