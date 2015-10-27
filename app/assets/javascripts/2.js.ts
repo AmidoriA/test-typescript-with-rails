@@ -8,7 +8,7 @@ class Page2 extends Printer {
   }
 
   runner(): void {
-    $("." + this.outputClass + " .output").html('Hello page 2')
+    $("." + this.outputClass + " .output").html('Hello page 2');
   }
 }
 
